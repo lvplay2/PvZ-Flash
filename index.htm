@@ -1,12 +1,20 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="es">
 <head>
-<style type="text/css">
-.style1 {
-	text-align: center;
-}
-</style>
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <meta charset="UTF-8">
+    <title>Plants vs Zombies</title>
+    <style type="text/css">
+        .style1 {
+            text-align: center;
+        }
+    </style>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </head>
-
-<div class="style1">
-	<embed src="pvz.swf" style="width: 620px; height: 485px"></embed></div>
+<body>
+    <div class="style1">
+        <ruffle-player style="width: 620px; height: 485px">
+            <source src="pvz.swf" type="application/x-shockwave-flash">
+        </ruffle-player>
+    </div>
+</body>
+</html>
