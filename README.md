@@ -7,6 +7,7 @@ Recommended Tool: PHPnow — a lightweight PHP development package that includes
 
 Then, in your browser, enter:
 ``` http://127.0.0.1/pvz/ ```
+
 You’ll then be able to see the game interface.
 
 Since the official PHPnow site is no longer online and the installer is not very large, it has already been included in the archive. Feel free to try it if you’re interested.
